@@ -25,4 +25,4 @@ This is a documentation for uploading images to the cloud and getting their secu
 • Use npm run dev to start on your local.
 
 #### The url below contains a documentation on how to use this API with samples of requests and responses:
- • [Bale API Documentation](https://file-upload-phar.onrender.com/api/v1/docs)
+ • [File Upload API Documentation](https://file-upload-phar.onrender.com/api/v1/docs)
