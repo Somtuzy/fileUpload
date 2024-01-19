@@ -9,7 +9,6 @@ class ImageController{
         const data: IPicture[] = []
 
         console.log(req.body, 'here');
-        
 
         for(const image of images) {
             // const uploadedImage = await imageService.create(image)

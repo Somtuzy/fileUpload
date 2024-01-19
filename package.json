@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config src/api/server.ts",
     "build": "npm i && tsc",
-    "start": "node -r dotenv/config dist/api/server.ts"
+    "start": "node -r dotenv/config dist/api/server.js"
   },
   "keywords": [],
   "author": "",
