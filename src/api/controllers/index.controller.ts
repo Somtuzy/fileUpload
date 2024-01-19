@@ -1,0 +1,1 @@
+export { default as imageController } from './image.controller'

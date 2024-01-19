@@ -1,0 +1,1 @@
+export { default as imageService } from './image.service';
