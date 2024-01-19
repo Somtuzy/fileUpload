@@ -7,7 +7,7 @@ const fileUploadRouter = Router()
 
 fileUploadRouter.post('/upload', [upload.array('image'), uploadFiles('images')], imageController.uploadImage);
 
-fileUploadRouter.get('/get_image', imageController.viewImages);
+fileUploadRouter.get('/', imageController.viewImages);
 
 fileUploadRouter.get('/get_image/:id', imageController.downloadImage);
 

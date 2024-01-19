@@ -1,14 +1,16 @@
 import { Types } from 'mongoose'
 export interface IPicture{
     _id: Types.ObjectId;
-    url: string;
+    filename: string;
+    secure_url: string;
     deleted: boolean;
 }
 
 export interface ICreateImage{
-    url: string;
+    filename: string;
+    secure_url: string;
 }
 
 export interface IUpdateImage{
-    url: string;
+    secure_url: string;
 }
