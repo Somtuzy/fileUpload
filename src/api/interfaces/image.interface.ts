@@ -3,6 +3,7 @@ export interface IPicture{
     _id: Types.ObjectId;
     filename: string;
     secure_url: string;
+    originalname: string;
     deleted: boolean;
 }
 

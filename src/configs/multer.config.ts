@@ -41,5 +41,8 @@ export default multer({
     storage: storage,
     fileFilter: (req, file, cb) => {
         checkFileType(file, cb);
-    }
+    },
+    limits: {
+        fileSize: 50 * 1024 * 1024, // 50MB, adjust the size limit as needed
+      }
 });

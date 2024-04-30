@@ -6,6 +6,10 @@ const imageSchema = new Schema<IPicture>({
         type: String,
         required: true
     }, 
+    originalname: {
+        type: String,
+        required: true
+    }, 
     secure_url: {
         type: String,
         required: true
